@@ -1,32 +1,32 @@
 {
   "expo": {
-    "name": "personalInventorySystem",
-    "slug": "personalInventorySystem",
+    "name": "PISYS",
+    "slug": "PISYS",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/appAsset/ic_launcher.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/appAsset/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/appAsset/ic_launcher_round.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.vagenodipa.PYSIS"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": ""
   }
 }
